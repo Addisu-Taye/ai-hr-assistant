@@ -1,9 +1,21 @@
 __pycache__/
 *.pyc
 *.log
-db.sqlite3
 env/
 venv/
 *.egg-info/
 .DS_Store
 *.swp
+
+# Database related (specific to PostgreSQL, less likely to have local files in the project)
+# If you have any specific local dump files or similar, add them here
+*.dump
+*.sql
+
+# Sensitive settings (if you have a separate file for local settings)
+local_settings.py
+local_settings.pyc
+*.secret.key  # If you store your SECRET_KEY in a separate file
+
+# OS Specific - adjust as needed
+Thumbs.db
