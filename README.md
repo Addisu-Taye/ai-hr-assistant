@@ -48,7 +48,11 @@ This project is an AI-powered HR assistant built using Django and Python. It aim
     pip install -r requirements.txt
     ```
 
+<<<<<<< HEAD
     *(Note: You might need to generate a `requirements.txt` file if you haven't already. You can do this after installing the necessary libraries with `pip freeze > requirements.txt`)*
+=======
+    
+>>>>>>> 4e0eac71a7486df6ff51dfd77c06d0dbca4af7d0
 
 4.  **Set up PostgreSQL:**
     * Ensure you have PostgreSQL installed and running.
@@ -116,4 +120,8 @@ MIT License
 ## Contact
 
 Addisu Taye
+<<<<<<< HEAD
 addtaye@gmail.com
+=======
+addtaye@gmail.com
+>>>>>>> 4e0eac71a7486df6ff51dfd77c06d0dbca4af7d0
